@@ -4,7 +4,7 @@ services:
   grafana:
 #    build:
 #      context: ./grafana
-    image: custom-grafana-enterprise:latest
+    image: airflowjobs/custom-grafana-enterprise:latest
     container_name: grafana
     ports:
       - 53000:3000
